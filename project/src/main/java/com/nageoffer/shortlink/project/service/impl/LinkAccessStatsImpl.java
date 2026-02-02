@@ -1,0 +1,14 @@
+package com.nageoffer.shortlink.project.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.nageoffer.shortlink.project.dao.entity.LinkAccessStatsDO;
+import com.nageoffer.shortlink.project.dao.mapper.LinkAccessStatsMapper;
+import com.nageoffer.shortlink.project.service.LinkAccessStatsService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class LinkAccessStatsImpl extends ServiceImpl<LinkAccessStatsMapper, LinkAccessStatsDO>implements LinkAccessStatsService {
+
+
+
+}

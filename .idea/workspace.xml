@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0dda400-428e-46c9-b48f-f1c7ae539d66" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\java\tool\apache-maven-3.9.11-bin\apache-maven-3.9.11" />
+        <option name="localRepository" value="D:\java\tool\apache-maven-3.9.11-bin\apache-maven-3.9.11\maven_repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\java\tool\apache-maven-3.9.11-bin\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="25" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="37BxlK3yeeKxCCAecHBprnVhRJP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP 请求.ShortLinkProjectApplication | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-all [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-all [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-all [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-project [org.apache.maven.plugins:maven-jar-plugin:3.4.1:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-project [org.apache.maven.plugins:maven-jar-plugin:3.4.1:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shortlink-project [org.apache.maven.plugins:maven-jar-plugin:3.4.1:test-jar].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;发现新的/更新的数据库配置&quot;,
+    &quot;Notification.DoNotAsk-DatabaseConfigFileWatcher.found&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShortLinkAdminApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortLinkProjectApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Shortlink.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortlinkAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javaproject/shortlink&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/javaproject/shortlink/project/src/main/java/com/nageoffer/shortlink/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\java\\tool\\idea\\IntelliJ IDEA 2025.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ShortLinkAdminApplication.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.UserTableShardingText.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nageoffer.shortlink.project.dto.resp" />
+      <recent name="\" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\shortlink" />
+      <recent name="D:\javaproject\shortlink\admin\src\main\java\com\nageoffer\shortlink\admin\remote\dto\resp" />
+      <recent name="D:\javaproject\shortlink\admin\src\main\java\com\nageoffer\shortlink\admin\remote\dto" />
+      <recent name="D:\javaproject\shortlink\project\src\main\resources" />
+      <recent name="D:\javaproject\shortlink\project\src\main\java\com\nageoffer\shortlink\project\common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nageoffer.shortlink.admin.remote.dto.req" />
+      <recent name="com.nageoffer.shortlink.project.dto.req" />
+      <recent name="com.nageoffer.shortlink.admin.remote.dto.resp" />
+      <recent name="com.nageoffer.shortlink.project.dto.resp" />
+      <recent name="com.nageoffer.shortlink.project.common.biz.user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ShortLinkProjectApplication" value="STOPPED" />
+              <entry key="ShortlinkAdmin" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShortlinkAdmin">
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTableShardingText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nageoffer.shortlink.admin.UserTableShardingText" />
+      <module name="shortlink-admin" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nageoffer.shortlink.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortLinkProjectApplication | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ShortLinkProjectApplication.http" executionIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="ShortLinkProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shortlink-project" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nageoffer.shortlink.project.ShortLinkProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nageoffer.shortlink.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortlinkAdmin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shortlink-admin" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nageoffer.shortlink.admin.ShortLinkAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shortlink-admin" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nageoffer.shortlink.admin.ShortLinkAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.ShortLinkProjectApplication | #1" />
+      <item itemvalue="Spring Boot.ShortlinkAdmin" />
+      <item itemvalue="Spring Boot.ShortLinkProjectApplication" />
+      <item itemvalue="应用程序.UserTableShardingText" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShortLinkProjectApplication" />
+        <item itemvalue="应用程序.UserTableShardingText" />
+        <item itemvalue="HTTP 请求.ShortLinkProjectApplication | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="逻辑" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a0dda400-428e-46c9-b48f-f1c7ae539d66" name="更改" comment="" />
+      <created>1766390414827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766390414827</updated>
+      <workItem from="1766390415835" duration="5480000" />
+      <workItem from="1766396101208" duration="260000" />
+      <workItem from="1766397466033" duration="10513000" />
+      <workItem from="1766469775003" duration="19552000" />
+      <workItem from="1766559682531" duration="20199000" />
+      <workItem from="1766639105804" duration="1000" />
+      <workItem from="1766644790047" duration="6864000" />
+      <workItem from="1766676067131" duration="1000" />
+      <workItem from="1766714232879" duration="3158000" />
+      <workItem from="1766742995020" duration="3300000" />
+      <workItem from="1766812137543" duration="1849000" />
+      <workItem from="1766823696827" duration="9309000" />
+      <workItem from="1766858140590" duration="2000" />
+      <workItem from="1766899054123" duration="2712000" />
+      <workItem from="1766902737367" duration="517000" />
+      <workItem from="1766903270175" duration="1214000" />
+      <workItem from="1766904497039" duration="1327000" />
+      <workItem from="1766905828909" duration="36000" />
+      <workItem from="1766905878403" duration="77000" />
+      <workItem from="1766906209427" duration="5077000" />
+      <workItem from="1766911306456" duration="8359000" />
+      <workItem from="1766928340019" duration="6312000" />
+      <workItem from="1766998004566" duration="8438000" />
+      <workItem from="1767020334987" duration="263000" />
+      <workItem from="1767087660046" duration="213000" />
+      <workItem from="1767172361589" duration="2000" />
+      <workItem from="1767265165888" duration="1000" />
+      <workItem from="1767340494138" duration="3160000" />
+      <workItem from="1767345321759" duration="6000" />
+      <workItem from="1767345339696" duration="5000" />
+      <workItem from="1767424894384" duration="17854000" />
+      <workItem from="1767536618610" duration="3411000" />
+      <workItem from="1767540426062" duration="1177000" />
+      <workItem from="1767599942727" duration="5118000" />
+      <workItem from="1767622919873" duration="2957000" />
+      <workItem from="1767626558043" duration="2000" />
+      <workItem from="1767766233939" duration="15000" />
+      <workItem from="1767766265166" duration="28000" />
+      <workItem from="1767766295715" duration="8960000" />
+      <workItem from="1767857898328" duration="13000000" />
+      <workItem from="1767923233212" duration="8836000" />
+      <workItem from="1767968017527" duration="4498000" />
+      <workItem from="1767974594646" duration="6785000" />
+      <workItem from="1768028554124" duration="14671000" />
+      <workItem from="1768045368828" duration="1874000" />
+      <workItem from="1768052205537" duration="8820000" />
+      <workItem from="1768130392827" duration="11073000" />
+      <workItem from="1768146517404" duration="13000" />
+      <workItem from="1768199508811" duration="2000" />
+      <workItem from="1768212657576" duration="1246000" />
+      <workItem from="1768294149608" duration="3000" />
+      <workItem from="1768461644584" duration="12000" />
+      <workItem from="1768481323874" duration="2000" />
+      <workItem from="1768647977642" duration="2000" />
+      <workItem from="1768663829900" duration="8000" />
+      <workItem from="1768910452393" duration="5000" />
+      <workItem from="1768957603473" duration="6232000" />
+      <workItem from="1769003609716" duration="2004000" />
+      <workItem from="1769005742717" duration="2663000" />
+      <workItem from="1769149956074" duration="6000" />
+      <workItem from="1769172195933" duration="6456000" />
+      <workItem from="1769236273469" duration="6000" />
+      <workItem from="1769688684404" duration="3680000" />
+      <workItem from="1769755741826" duration="11238000" />
+      <workItem from="1769837559176" duration="18081000" />
+      <workItem from="1769924144607" duration="2617000" />
+      <workItem from="1769928088646" duration="7445000" />
+      <workItem from="1769940429867" duration="5011000" />
+      <workItem from="1769999773070" duration="25700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/controller/ShortLinkRedirectController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/controller/ShortLinkRedirectController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

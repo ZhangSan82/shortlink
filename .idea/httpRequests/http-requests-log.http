@@ -1,0 +1,9 @@
+GET http://localhost:8001/api/shortlink/v1/count
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-01-31T160810.200.json
+
+###
+
