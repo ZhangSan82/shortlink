@@ -12,6 +12,9 @@ import java.io.IOException;
 import java.util.List;
 
 
+/**
+ * 用户信息传输过滤器
+ */
 @RequiredArgsConstructor
 public class UserTransmitFilter implements Filter {
 

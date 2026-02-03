@@ -13,7 +13,9 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.nageoffer.shortlink.project.common.convention.exception.ClientException;
 import com.nageoffer.shortlink.project.common.convention.exception.ServiceException;
@@ -56,6 +58,8 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import static com.nageoffer.shortlink.project.common.constant.RedisKeyConstant.*;
 import static com.nageoffer.shortlink.project.common.constant.ShortLinkConstant.AMAP_REMOTE_URL;
@@ -149,8 +153,40 @@ public class ShortLinkServiceImpl extends ServiceImpl<ShortLinkMapper, ShortLink
                .eq(ShortLinkDO::getDelFlag,0)
                .orderByDesc(ShortLinkDO::getCreateTime); // 加上这一行;
        IPage<ShortLinkDO> page = baseMapper.selectPage(shortLinkPageReqDTO, queryWrapper);
+       if(CollectionUtils.isEmpty(page.getRecords())){
+           return new Page<>();
+       }
 
-       return getShortLinkUvPvUip(page);
+       List<String> fullurlList = page.getRecords().stream()
+               .map(ShortLinkDO::getFullShortUrl)
+               .collect(Collectors.toList());
+
+       List<LinkAccessStatsDO> todayStatsList = linkAccessStatsMapper.listTodayStatsByFullUrl(fullurlList,DateUtil.today() );
+       Map<String,LinkAccessStatsDO> todayStatsMap = todayStatsList
+               .stream()
+               .collect(Collectors.toMap(LinkAccessStatsDO::getFullShortUrl, Function.identity()));
+
+       return page.convert(each->{
+           ShortLinkPageRespDTO result = BeanUtil.copyProperties(each,ShortLinkPageRespDTO.class);
+
+           LinkAccessStatsDO todayStats = todayStatsMap.get(each.getFullShortUrl());
+           if(todayStats != null){
+               result.setTodayPv(todayStats.getPv());
+               result.setTodayUv(todayStats.getUv());
+               result.setTodayUip(todayStats.getUip());
+           }
+           else {
+               result.setTodayPv(0);
+               result.setTodayUv(0);
+               result.setTodayUip(0);
+           }
+           result.setDomain("http://" + result.getDomain());
+           return result;
+       });
+
+
+        //性能差
+//       return getShortLinkUvPvUip(page);
 //       return page.convert(each-> {
 //           ShortLinkPageRespDTO result = BeanUtil.copyProperties(each,ShortLinkPageRespDTO.class);
 //           result.setDomain("http://" + result.getDomain());

@@ -10,6 +10,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.Date;
 import java.util.List;
 
 @Mapper
@@ -137,4 +138,28 @@ public interface LinkAccessStatsMapper extends BaseMapper<LinkAccessStatsDO> {
             "GROUP BY " +
             "    tl.gid, tlas.weekday;")
     List<LinkAccessStatsDO> listWeekdayStatsByGroup(@Param("param") ShortLinkGroupStatsReqDTO requestParam);
+
+
+
+    /**
+     * 批量查询指定短链接在指定日期的统计数据
+     *
+     * @param fullurlList 短链接列表
+     * @param date 日期
+     * @return 统计列表
+     */
+    @Select({
+            "<script>",
+            "SELECT full_short_url, SUM(pv) as pv, SUM(uv) as uv, SUM(uip) as uip",
+            "FROM t_link_access_stats",
+            "WHERE date = #{date}",
+            "AND full_short_url IN",
+            "<foreach collection='fullurlList' item='fullurl' open='(' separator=',' close=')'>",
+            "#{fullurl}",
+            "</foreach>",
+            "GROUP BY full_short_url",
+            "</script>"
+    })
+    List<LinkAccessStatsDO> listTodayStatsByFullUrl(@Param("fullurlList") List<String> fullurlList,
+                                                    @Param("date") String date);
 }
