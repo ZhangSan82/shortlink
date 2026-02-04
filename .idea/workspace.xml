@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0dda400-428e-46c9-b48f-f1c7ae539d66" name="更改" comment="" />
+    <list default="true" id="a0dda400-428e-46c9-b48f-f1c7ae539d66" name="更改" comment="提升分页查询短链接具体数据的性能">
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/config/RedisStreamConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/mq/consumer/ShortLinkStatsSaveConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/mq/idempoten/MessageQueueIdempotentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/mq/producer/ShortLinkStatsSaveProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/dto/req/ShortLinkStatsRecordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/dto/req/ShortLinkStatsRecordDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/mq/consumer/DelayShortLinkStatsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/mq/consumer/DelayShortLinkStatsConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/service/impl/ShortLinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/service/impl/ShortLinkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZhangSan82&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ZhangSan82/shortlink.git&quot;,
+    &quot;accountId&quot;: &quot;43879e6c-1a54-4fea-9b5c-af9651302821&quot;
+  }
+}</component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
@@ -55,6 +77,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="37BxlK3yeeKxCCAecHBprnVhRJP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,10 +103,12 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.ShortLinkAdminApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ShortLinkProjectApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.Shortlink.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.ShortlinkAdmin.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/javaproject/shortlink&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -148,7 +175,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShortlinkAdmin">
+  <component name="RunManager" selected="Spring Boot.ShortLinkProjectApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <shortenClasspath name="ARGS_FILE" />
       <method v="2">
@@ -304,30 +331,34 @@
       <workItem from="1769924144607" duration="2617000" />
       <workItem from="1769928088646" duration="7445000" />
       <workItem from="1769940429867" duration="5011000" />
-      <workItem from="1769999773070" duration="25700000" />
+      <workItem from="1769999773070" duration="27254000" />
+      <workItem from="1770049917922" duration="4000" />
+      <workItem from="1770098163615" duration="25074000" />
+      <workItem from="1770183921584" duration="14756000" />
     </task>
+    <task id="LOCAL-00001" summary="提升分页查询短链接具体数据的性能">
+      <option name="closed" value="true" />
+      <created>1770135356734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770135356734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="提升分页查询短链接具体数据的性能" />
+    <option name="LAST_COMMIT_MESSAGE" value="提升分页查询短链接具体数据的性能" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/controller/ShortLinkRedirectController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project/src/main/java/com/nageoffer/shortlink/project/controller/ShortLinkRedirectController.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="com.nageoffer.shortlink.project.dto.req.ShortLinkPageReqDTO" memberName="records" />
         <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
       </pinned-members>
     </pin-to-top-manager>
